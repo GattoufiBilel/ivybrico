@@ -60,6 +60,7 @@ border-style: groove;
 margin-top: 10%;
 text-align: center;
 right: 10%;
+background-color: gray;
 }
 h3{
 	text-align:center;
@@ -126,4 +127,37 @@ h3{
 .copyright
 {
 	margin-top: -2%;
+}
+.myForm{
+   	background-color: rgba(0,0,0,0.5) !important;
+   	padding: 40px !important;
+   border-radius: 15px !important;
+   color: white;
+top: -400px;
+left: 35%;
+   }
+   .myFor{
+   	background-color: rgba(0,0,0,0.5) !important;
+   	padding: 40px !important;
+   border-radius: 15px !important;
+   color: white;
+   }
+   h2{
+   	 margin: 0;
+  text-align: center;
+  font-size: 100px;
+  overflow: hidden;
+  line-height: 1;
+   }
+   h2 span{
+   	 display: block;
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+   }
+@keyframes reveal {
+  0% {
+    transform: translate(0,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
 }
